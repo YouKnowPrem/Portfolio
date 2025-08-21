@@ -121,7 +121,7 @@ export default function Intro() {
                     href='/myResume.pdf'
                     download
                 >
-                    Download CV
+                    Download CV (not made yet)
                     <HiDownload className='opacity-60 group-hover:translate-y-1 transition' />
                 </a>
                 <a
