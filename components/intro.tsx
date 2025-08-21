@@ -72,22 +72,22 @@ export default function Intro() {
                 animate={{ opacity: 1, y: 0 }}
             >
                 <span className='font-handwriting text-5xl sm:text-6xl gradient-text-warm font-bold'>Hello, I'm Prem</span>
-                <span className='font-inter text-3xl sm:text-4xl'> — </span>
-                <span className='font-inter'>a </span>
-                <span className='font-playfair font-bold gradient-text text-2xl sm:text-4xl italic'>law student</span>
-                <span className='font-inter'> and </span>
-                <span className='font-mono font-semibold gradient-text-cool text-xl sm:text-3xl'>web design enthusiast</span>
-                <span className='font-inter'>, passionate about blending </span>
-                <span className='font-playfair font-bold text-purple-600 dark:text-purple-400 text-xl sm:text-2xl'>creativity</span>
-                <span className='font-inter'> with </span>
-                <span className='font-playfair font-bold text-indigo-600 dark:text-indigo-400 text-xl sm:text-2xl italic'>critical thinking</span>
-                <span className='font-inter'>. I also enjoy </span>
-                <span className='font-handwriting text-2xl sm:text-3xl underline decoration-wavy decoration-pink-500 font-bold'>chess</span>
-                <span className='font-inter'>, </span>
-                <span className='font-mono font-semibold text-green-600 dark:text-green-400'>CODM</span>
-                <span className='font-inter'>, and </span>
-                <span className='font-handwriting text-xl sm:text-2xl text-orange-500 dark:text-orange-400 font-semibold'>other games</span>
-                <span className='font-inter'>.</span>
+                <span className='text-3xl sm:text-4xl'> — </span>
+                <span>a </span>
+                <span className='font-bold'>law student</span>
+                <span> and </span>
+                <span className='font-bold italic text-blue-600 dark:text-blue-400'>web design enthusiast</span>
+                <span>, passionate about blending </span>
+                <span className='font-bold'>creativity</span>
+                <span> with </span>
+                <span className='italic'>critical thinking</span>
+                <span>. I also enjoy </span>
+                <span className='font-bold text-purple-600 dark:text-purple-400'>chess</span>
+                <span>, </span>
+                <span className='font-bold italic text-green-600 dark:text-green-400'>CODM</span>
+                <span>, and </span>
+                <span className='italic'>other games</span>
+                <span>.</span>
             </motion.h1>
             <motion.div
                 className='flex flex-col sm:flex-row items-center justify-center 
@@ -99,52 +99,48 @@ export default function Intro() {
                     delay: 0.1,
                 }}
             >
+                <Link
+                    href="#contact"
+                    className='group bg-gray-900 text-white px-7 py-3 flex 
+                items-center gap-2 rounded-full outline-none 
+                focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105
+                transition cursor-pointer borderBlack dark:bg-white dark:bg-opacity-10'
+                    onClick={() => {
+                        setActiveSection("Contact");
+                        setTimeOfLastClick(Date.now());
+                    }}
+                >
+                    Contact me here
+                    <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' />
+                </Link>
                 <a
-                    className='group bg-gradient-to-r from-purple-500 to-pink-500 
-                    text-white px-7 py-3 flex 
-                items-center gap-2 font-inter font-semibold
-                rounded-full outline-none focus:scale-110 hover:scale-110
-                hover:from-purple-600 hover:to-pink-600 active:scale-105
-                transition-all duration-300 shadow-lg hover:shadow-xl
-                cursor-pointer'
+                    className='group bg-white px-7 py-3 flex items-center 
+                gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 
+                active:scale-105 transition cursor-pointer borderBlack 
+                dark:bg-white/10'
                     href='/myResume.pdf'
                     download
                 >
-                    <span className='font-playfair'>Download CV</span>
-                    <HiDownload
-                        className='opacity-80 group-hover:translate-y-1 
-                    transition-transform duration-300'
-                    />
+                    Download CV
+                    <HiDownload className='opacity-60 group-hover:translate-y-1 transition' />
                 </a>
                 <a
                     className='bg-white p-4 text-gray-700 flex items-center 
-                gap-2 rounded-full 
-                outline-none focus:scale-[1.15] 
-                hover:scale-[1.15] hover:text-gray-950 active:scale-105
-                transition borderBlack dark:bg-white/10 dark:text-white/60'
+                gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] 
+                active:scale-105 transition cursor-pointer borderBlack 
+                dark:bg-white/10 dark:text-white/60'
                     href='https://linkedin.com/in/yourprofile' target='_blank'
                 >
                     <BsLinkedin />
                 </a>
                 <a
                     className='bg-white p-4 text-gray-700 flex items-center 
-                gap-2 rounded-full outline-none 
-                focus:scale-[1.15] hover:scale-[1.15] 
-                hover:text-gray-950 active:scale-105
-                transition borderBlack dark:bg-white/10 dark:text-white/60'
+                gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] 
+                active:scale-105 transition cursor-pointer borderBlack 
+                dark:bg-white/10 dark:text-white/60'
                     href='https://github.com/youknowprem' target='_blank'
                 >
                     <BsGithub />
-                </a>
-                <a
-                    className='bg-white p-4 text-gray-700 flex items-center 
-                gap-2 rounded-full outline-none 
-                focus:scale-[1.15] hover:scale-[1.15] 
-                hover:text-gray-950 active:scale-105
-                transition borderBlack dark:bg-white/10 dark:text-white/60'
-                    href='https://leetcode.com/yourprofile' target='_blank'
-                >
-                    <SiLeetcode />
                 </a>
             </motion.div>
         </section>
