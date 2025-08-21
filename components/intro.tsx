@@ -71,16 +71,22 @@ export default function Intro() {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
             >
-                <span className='font-handwriting text-5xl sm:text-6xl gradient-text-warm font-bold'>Hello, I'm Prem.</span>
-                <br className='block sm:hidden' />
-                <span className='font-inter'> I'm a </span>
-                <span className='font-playfair font-bold gradient-text text-3xl sm:text-5xl'>law student</span>
-                <span className='font-inter'> with a passion for </span>
-                <span className='font-mono italic gradient-text-cool font-semibold'>web development</span>
-                <span className='font-inter'>. I enjoy combining </span>
-                <span className='font-playfair font-bold text-purple-600 dark:text-purple-400'>analytical thinking</span>
-                <span className='font-inter'> with creative coding to build interactive websites. When I'm not studying or coding, I love </span>
-                <span className='font-handwriting text-2xl sm:text-3xl underline decoration-wavy decoration-pink-500'>playing Chess and gaming</span>
+                <span className='font-handwriting text-5xl sm:text-6xl gradient-text-warm font-bold'>Hello, I'm Prem</span>
+                <span className='font-inter text-3xl sm:text-4xl'> — </span>
+                <span className='font-inter'>a </span>
+                <span className='font-playfair font-bold gradient-text text-2xl sm:text-4xl italic'>law student</span>
+                <span className='font-inter'> and </span>
+                <span className='font-mono font-semibold gradient-text-cool text-xl sm:text-3xl'>web design enthusiast</span>
+                <span className='font-inter'>, passionate about blending </span>
+                <span className='font-playfair font-bold text-purple-600 dark:text-purple-400 text-xl sm:text-2xl'>creativity</span>
+                <span className='font-inter'> with </span>
+                <span className='font-playfair font-bold text-indigo-600 dark:text-indigo-400 text-xl sm:text-2xl italic'>critical thinking</span>
+                <span className='font-inter'>. I also enjoy </span>
+                <span className='font-handwriting text-2xl sm:text-3xl underline decoration-wavy decoration-pink-500 font-bold'>chess</span>
+                <span className='font-inter'>, </span>
+                <span className='font-mono font-semibold text-green-600 dark:text-green-400'>CODM</span>
+                <span className='font-inter'>, and </span>
+                <span className='font-handwriting text-xl sm:text-2xl text-orange-500 dark:text-orange-400 font-semibold'>other games</span>
                 <span className='font-inter'>.</span>
             </motion.h1>
             <motion.div
