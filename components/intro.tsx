@@ -64,7 +64,7 @@ export default function Intro() {
             initial={{ opacity: 0, y: 100}}
             animate={{ opacity: 1, y: 0}}
         >
-            <span className='font-bold'>Hello, I'm Prem.</span> I'm a{" "}<span className='font-bold'>Web Design Hobbyist, As </span>  I love enjoy building <span className='italic'> websites, you can</span> call me <span className='font-bold'> Digital Artisan Or Web Enthusiast </span>. I also love <span className='underline'> Playing Chess, Plying CODM, And Other Games</span>.
+            <span className='font-bold'>Hello, I'm Prem Singh.</span> {" "}<span className='font-bold'>A Law student and web design enthusiast, As </span>  I love & enjoy being <span className='italic'>passionate about blending creativity with critical thinking.</span>you can call me <span className='font-bold'>A blend of Law & Web Enthusiast </span>. I also enjoy <span className='underline'> Playing Chess, Playing CODM, And Other Games</span>.
         </motion.h1>
         <motion.div 
             className='flex flex-col sm:flex-row items-center justify-center 
