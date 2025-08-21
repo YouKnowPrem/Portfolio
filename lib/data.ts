@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { FaServer } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import WelcomeImg from "@/public/Welcome.png";
-import AnimeWebImg from "@/public/AnimeWeb.png";
+
 import FlappyImg from "@/public/Flappy bird .png";
 import MaclarenWeb from "@/public/MaclarenWeb.png";
 import MoseosClone from "@/public/MoseosClone.png";
@@ -51,45 +51,45 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Taken Drop after 12th",
+    title: "B.A. LL.B. (Hons.) at University of Jammu",
     location: "Jammu, J&K, India",
     description:
-      "I chose to take a gap year to fully concentrate on my studies and strengthen my preparation for competitive exams. ",
+      "Currently pursuing integrated law degree with focus on technology law and digital governance. Exploring the intersection of legal frameworks and emerging technologies.",
     icon: React.createElement(LuGraduationCap),
-    date: "2023-2024",
+    date: "2025 - 2030",
   },
   {
-    title: "Wordpress Exp.",
+    title: "Cloud Infrastructure & Web Development",
     location: "Jammu, J&K, India",
     description:
-      "I contributed to several WordPress websites, managing tasks ranging from DNS setup to staging and deployment.",
+      "Managed WordPress websites with expertise in DNS configuration, staging environments, deployment pipelines, and Google Cloud Platform migrations. Gained hands-on experience in cloud architecture and web hosting solutions.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2024",
+    date: "2022 - 2025",
   },
   {
-    title: "Wish of year 2025",
-    location: "Anywhere in India",
+    title: "Legend Tier Winner, Google Skill Boost Program – Session 1 (2025)",
+    location: "Online",
     description:
-      "I plan to start my college education in 2025 to enhance my skills and knowledge, complementing my practical experience for personal and professional growth.",
+      "Recognized for outstanding performance and completion of advanced skill challenges; currently participating in Session 2 (2025).",
     icon: React.createElement(LuGraduationCap),
-    date: "2025 - 202X",
+    date: "Jan-Jun 2025",
   },
   {
     title: "Principled and Multifaceted",
-    location: "For World",
+    location: "For Myself",
     description:
       "I refine my creative problem-solving skills while embodying principled and multifaceted approaches to ensure effective and ethical solutions.",
     icon: React.createElement(FaReact),
     date: "life time",
   },
   {
-    title: "The side hobby",
+    title: "Legal Technology Research & Development",
     location: "Jammu, India",
     description:
-      "I'm now a up skilling myself to web developement. Learning others langs. and much more in my pipeline.",
+      "Actively exploring the intersection of law and technology, questioning existing legal frameworks while applying technical insights toward better policy-making and digital governance. Continuously learning new programming languages and emerging technologies.",
     icon: React.createElement(FaServer),
     date: "2024 - present",
-  }, 
+  },
 ] as const;
 
 export const projectsData = [
@@ -105,7 +105,7 @@ export const projectsData = [
     title: "Web Portfolio",
     description:
       "An elegant dark-themed portfolio with smooth transitions and dynamic animations, offering a sleek and modern experience",
-    tags: ["Nextjs","React", "Javascript", "Framer Motion", "locomotive-scroll", "Tailwindcss", "GSAP", "SCSS"],
+    tags: ["Nextjs", "React", "Javascript", "Framer Motion", "locomotive-scroll", "Tailwindcss", "GSAP", "SCSS"],
     imageUrl: WebPortDark,
     imagePath: "https://youknowprem.github.io/Dark-Theme-Web-Portfolio/"
   },
@@ -113,7 +113,7 @@ export const projectsData = [
     title: "Parinda Website",
     description:
       "A clean, paper-themed portfolio with smooth animations and transitions, offering a minimalist & creative layout for showcaseing",
-    tags: ["Nextjs","React", "Typescript", "Framer Motion", "lenis-locomotive-scroll", "Tailwindcss"],
+    tags: ["Nextjs", "React", "Typescript", "Framer Motion", "lenis-locomotive-scroll", "Tailwindcss"],
     imageUrl: Parinda,
     imagePath: "https://parinda-pi.vercel.app"
   },
@@ -121,7 +121,7 @@ export const projectsData = [
     title: "Work Studio Clone",
     description:
       "An Awwwards winning Work Studio design website, with a lot of animations and interactions.",
-    tags: ["Vite","React", "Javascript", "Framer Motion", "locomotive-scroll", "Tailwindcss", "GSAP"],
+    tags: ["Vite", "React", "Javascript", "Framer Motion", "locomotive-scroll", "Tailwindcss", "GSAP"],
     imageUrl: WorkClone,
     imagePath: "https://clone-works-studio.vercel.app"
   },
@@ -129,7 +129,7 @@ export const projectsData = [
     title: "Interactive Star effect",
     description:
       "This star will follow your lead till you hover your mouse on screen",
-    tags: ["Vite","React", "Typescript", "Framer Motion", "Tailwindcss", 'GSAP'],
+    tags: ["Vite", "React", "Typescript", "Framer Motion", "Tailwindcss", 'GSAP'],
     imageUrl: StarImg,
     imagePath: "https://youknowprem.github.io/starFollower"
   },
@@ -140,7 +140,7 @@ export const projectsData = [
     tags: ["React", "Next js", "Typescript", "Motion"],
     imageUrl: ObysImg,
     imagePath: "https://obys-clone-five.vercel.app"
-  }, 
+  },
   {
     title: "Motion clone",
     description:
@@ -172,7 +172,7 @@ export const gamesData = [
     title: "Whack a Mole",
     description:
       "A fun, fast-paced Whack-a-Mole game with engaging visuals and smooth animations. Test your reflexes!",
-    tags: ["Nextjs","React", "Javascript", "Framer Motion", "lenis", "Tailwindcss", "GSAP"],
+    tags: ["Nextjs", "React", "Javascript", "Framer Motion", "lenis", "Tailwindcss", "GSAP"],
     imageUrl: WhackImg,
     imagePath: "https://whack-a-mole-10.vercel.app/",
     category: "Arcade"
@@ -192,7 +192,7 @@ export const gamesData = [
       "Navigate through pipes in this challenging Flappy Bird inspired game. Simple controls, addictive gameplay.",
     tags: ["HTML", "CSS", "Javascript", "Canvas"],
     imageUrl: FlappyImg,
-    imagePath: "#",
+    imagePath: "https://flappy-svg.vercel.app/",
     category: "Arcade"
   },
   {
@@ -207,30 +207,49 @@ export const gamesData = [
 ] as const;
 
 export const skillsData = [
+  // Frontend Technologies
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
   "React",
-  "Critical thinking",
-  "Nextjs",
-  "Nodejs",
-  "Versatile Problem-Solving",
+  "Next.js",
   "TailwindCSS",
-  "Chess Enthusiast",
-  "Playing Games",
-  "Paragraph person",
-  "Not easy to understand",
-  "Adaptability",
-  "Innovative Thinking",
-  "LocomotiveScroll",
-  "Java",
-  "TriggerScroll",
-  "Strategic Planning",
-  "Three js",
-  "Conflict Resolution",
+  "Three.js",
+
+  // Backend & Tools
+  "Node.js",
   "Git",
-  "Github",
+  "GitHub",
+  "Google Cloud Platform",
+
+  // Development Practices
+  "Open Source Contribution",
+  "Repository Forking",
+  "Kiro IDE",
+  "Local LLM Installation",
+
+  // AI & Modern Skills
+  "AI-Assisted Development",
+  "Prompt Engineering",
+  "LLM Integration",
+
+  // Legal-Tech Skills
+  "Legal Research",
+  "Policy Analysis",
+  "Digital Governance",
+  "Technology Law",
+
+  // Soft Skills
+  "Critical Thinking",
+  "Analytical Reasoning",
+  "Strategic Planning",
+  "Problem-Solving",
   "Ethical Decision-Making",
-  "Interdisciplinary Knowledge"
+  "Interdisciplinary Learning",
+
+  // Personal Interests
+  "Chess Strategy",
+  "Gaming",
+  "Continuous Learning"
 ] as const;
