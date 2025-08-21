@@ -116,7 +116,7 @@ export default function Intro() {
                 outline-none focus:scale-[1.15] 
                 hover:scale-[1.15] hover:text-gray-950 active:scale-105
                 transition borderBlack dark:bg-white/10 dark:text-white/60'
-                    href='#' target='_blank'
+                    href='https://linkedin.com/in/yourprofile' target='_blank'
                 >
                     <BsLinkedin />
                 </a>
@@ -126,5 +126,23 @@ export default function Intro() {
                 focus:scale-[1.15] hover:scale-[1.15] 
                 hover:text-gray-950 active:scale-105
                 transition borderBlack dark:bg-white/10 dark:text-white/60'
+                    href='https://github.com/youknowprem' target='_blank'
+                >
+                    <BsGithub />
+                </a>
+                <a
+                    className='bg-white p-4 text-gray-700 flex items-center 
+                gap-2 rounded-full outline-none 
+                focus:scale-[1.15] hover:scale-[1.15] 
+                hover:text-gray-950 active:scale-105
+                transition borderBlack dark:bg-white/10 dark:text-white/60'
+                    href='https://leetcode.com/yourprofile' target='_blank'
+                >
+                    <SiLeetcode />
+                </a>
+            </motion.div>
+        </section>
+    )
+}
 
 
