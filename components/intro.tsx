@@ -19,9 +19,15 @@ export default function Intro() {
     return (
         <section
             ref={ref} id='home'
-            className=' mb-28 max-w-[50rem] text-center 
-        sm:mb-0 scroll-mt-[100rem]'
+            className='relative mb-28 max-w-[50rem] text-center 
+        sm:mb-0 scroll-mt-[100rem] overflow-hidden'
         >
+            {/* Background decorative elements */}
+            <div className="absolute inset-0 -z-10">
+                <div className="absolute top-20 left-10 w-20 h-20 bg-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse"></div>
+                <div className="absolute top-40 right-10 w-32 h-32 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse delay-1000"></div>
+                <div className="absolute bottom-20 left-20 w-24 h-24 bg-pink-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse delay-2000"></div>
+            </div>
             <div className='flex items-center justify-center'>
                 <div className='relative'>
                     <motion.div
@@ -39,8 +45,9 @@ export default function Intro() {
                             quality="95"
                             priority={true}
                             className='h-40 w-40 rounded-full object-cover 
-                        border-[0.35rem] 
-                        border-white shadow-xl'
+                        border-4 border-gradient-to-r from-purple-400 via-pink-500 to-red-500
+                        shadow-2xl ring-4 ring-purple-200 ring-opacity-50
+                        hover:scale-105 transition-transform duration-300'
                         />
                     </motion.div>
                     <motion.span className='absolute bottom-0 right-0 text-4xl'
@@ -64,7 +71,17 @@ export default function Intro() {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
             >
-                <span className='font-bold'>Hello, I'm Prem.</span> I'm a{" "}<span className='font-bold'>Web Design Hobbyist, As </span>  I love enjoy building <span className='italic'> websites, you can</span> call me <span className='font-bold'> Digital Artisan Or Web Enthusiast </span>. I also love <span className='underline'> Playing Chess, Plying CODM, And Other Games</span>.
+                <span className='font-handwriting text-5xl sm:text-6xl gradient-text-warm font-bold'>Hello, I'm Prem.</span>
+                <br className='block sm:hidden' />
+                <span className='font-inter'> I'm a </span>
+                <span className='font-playfair font-bold gradient-text text-3xl sm:text-5xl'>law student</span>
+                <span className='font-inter'> with a passion for </span>
+                <span className='font-mono italic gradient-text-cool font-semibold'>web development</span>
+                <span className='font-inter'>. I enjoy combining </span>
+                <span className='font-playfair font-bold text-purple-600 dark:text-purple-400'>analytical thinking</span>
+                <span className='font-inter'> with creative coding to build interactive websites. When I'm not studying or coding, I love </span>
+                <span className='font-handwriting text-2xl sm:text-3xl underline decoration-wavy decoration-pink-500'>playing Chess and gaming</span>
+                <span className='font-inter'>.</span>
             </motion.h1>
             <motion.div
                 className='flex flex-col sm:flex-row items-center justify-center 
@@ -77,18 +94,20 @@ export default function Intro() {
                 }}
             >
                 <a
-                    className='group bg-white px-7 py-3 flex 
-                items-center gap-2 
+                    className='group bg-gradient-to-r from-purple-500 to-pink-500 
+                    text-white px-7 py-3 flex 
+                items-center gap-2 font-inter font-semibold
                 rounded-full outline-none focus:scale-110 hover:scale-110
-                hover:bg-white active:scale-105
-                transition cursor-pointer dark:bg-white/10'
+                hover:from-purple-600 hover:to-pink-600 active:scale-105
+                transition-all duration-300 shadow-lg hover:shadow-xl
+                cursor-pointer'
                     href='/myResume.pdf'
                     download
                 >
-                    Download CV(not made yet)
+                    <span className='font-playfair'>Download CV</span>
                     <HiDownload
-                        className='opacity-70 group-hover:translate-1 
-                    transition'
+                        className='opacity-80 group-hover:translate-y-1 
+                    transition-transform duration-300'
                     />
                 </a>
                 <a
@@ -107,23 +126,5 @@ export default function Intro() {
                 focus:scale-[1.15] hover:scale-[1.15] 
                 hover:text-gray-950 active:scale-105
                 transition borderBlack dark:bg-white/10 dark:text-white/60'
-                    href='https://github.com/YouKnowPrem'
-                    target='_blank'
-                >
-                    <BsGithub />
-                </a>
-                <a
-                    className='bg-white p-4 text-gray-700 flex items-center 
-                gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] 
-                hover:text-gray-950 active:scale-105
-                transition borderBlack dark:bg-white/10 dark:text-white/60'
-                    href='#'
-                    target='_blank'
-                >
-                    <SiLeetcode />
-                </a>
-            </motion.div>
-        </section>
-    )
-}
+
 
