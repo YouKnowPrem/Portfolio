@@ -86,7 +86,7 @@ export const experiencesData = [
     title: "The side hobby",
     location: "Jammu, India",
     description:
-      "I'm now tring to up skill myself, exploring technology alongside law studies to question existing frameworks and apply technical insight toward better policy-making and future governance. Learning others langs. and much more in pipeline.",
+      "I'm now tring to upskill myself, exploring technology alongside law studies to question existing frameworks and apply technical insight toward better policy-making and future governance. Learning others langs. and much more in pipeline.",
     icon: React.createElement(FaServer),
     date: "2024 - present",
   }, 
