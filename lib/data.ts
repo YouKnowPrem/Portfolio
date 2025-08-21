@@ -51,32 +51,32 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Joined Jammu University ",
+    title: "Taken Drop after 12th",
     location: "Jammu, J&K, India",
     description:
-      "Currently pursuing B.A. LL.B. (Hons.) at University of Jammu (Batch of 2025–2030) ",
+      "I chose to take a gap year to fully concentrate on my studies and strengthen my preparation for competitive exams. ",
     icon: React.createElement(LuGraduationCap),
     date: "2023-2024",
   },
   {
-    title: "Hosting, Google Cloud Platform, WordPress & Migration Exp.",
+    title: "Wordpress Exp.",
     location: "Jammu, J&K, India",
     description:
-      "I contributed to several WordPress websites, managing tasks ranging from DNS setup to staging and deployment ,and migrating to Google Cloud Platform.",
+      "I contributed to several WordPress websites, managing tasks ranging from DNS setup to staging and deployment.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2025",
+    date: "2022 - 2024",
   },
   {
-    title: "Legend Tier Winner, Google Skill Boost Program – Session 1 (2025)",
-    location: "Online",
+    title: "Wish of year 2025",
+    location: "Anywhere in India",
     description:
-      "Recognized for outstanding performance and completion of advanced skill challenges; currently participating in Session 2 (2025).",
+      "I plan to start my college education in 2025 to enhance my skills and knowledge, complementing my practical experience for personal and professional growth.",
     icon: React.createElement(LuGraduationCap),
-    date: "Jan-Jun 2025",
+    date: "2025 - 202X",
   },
   {
     title: "Principled and Multifaceted",
-    location: "For Myself",
+    location: "For World",
     description:
       "I refine my creative problem-solving skills while embodying principled and multifaceted approaches to ensure effective and ethical solutions.",
     icon: React.createElement(FaReact),
@@ -86,7 +86,7 @@ export const experiencesData = [
     title: "The side hobby",
     location: "Jammu, India",
     description:
-      "I'm now tring to upskill myself, exploring technology alongside law studies to question existing frameworks and apply technical insight toward better policy-making and future governance. Learning others langs. and much more in pipeline.",
+      "I'm now a up skilling myself to web developement. Learning others langs. and much more in my pipeline.",
     icon: React.createElement(FaServer),
     date: "2024 - present",
   }, 
@@ -192,7 +192,7 @@ export const gamesData = [
       "Navigate through pipes in this challenging Flappy Bird inspired game. Simple controls, addictive gameplay.",
     tags: ["HTML", "CSS", "Javascript", "Canvas"],
     imageUrl: FlappyImg,
-    imagePath: "https://flappy-svg.vercel.app/",
+    imagePath: "#",
     category: "Arcade"
   },
   {
@@ -211,28 +211,26 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
-  "TailwindCSS",
   "React",
+  "Critical thinking",
   "Nextjs",
   "Nodejs",
-  "Three js",
-  "TriggerScroll",
-  "Git",
-  "Github",
-  "Using Open Source",
-  "Forking Repos",
-  "Using Kiro IDE",
-  "Locally Installing LLMs",
+  "Versatile Problem-Solving",
+  "TailwindCSS",
   "Chess Enthusiast",
   "Playing Games",
-  "Prompt Writer",
-  "Using AI as Assistant",
+  "Paragraph person",
+  "Not easy to understand",
   "Adaptability",
   "Innovative Thinking",
-  "Using AI to get any Project done",
+  "LocomotiveScroll",
+  "Java",
+  "TriggerScroll",
   "Strategic Planning",
-  "Critical thinking",
-  "Versatile Problem-Solving",
+  "Three js",
+  "Conflict Resolution",
+  "Git",
+  "Github",
   "Ethical Decision-Making",
-  "Try to get Interdisciplinary Knowledge"
+  "Interdisciplinary Knowledge"
 ] as const;
