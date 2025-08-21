@@ -34,11 +34,11 @@ export default function Intro() {
                 >
                     <Image 
                         src="/photo.png" alt="Prem"
-                        width="192"
-                        height="192"
+                        width="320"
+                        height="320"
                         quality="95"
                         priority={true}
-                        className='h-24 w-24 rounded-full object-cover 
+                        className='h-40 w-40 rounded-full object-cover 
                         border-[0.35rem] 
                         border-white shadow-xl'
                     />
